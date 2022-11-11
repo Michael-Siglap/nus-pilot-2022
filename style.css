@@ -1,0 +1,46 @@
+html {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+*,::before,::after{
+  box-sizing: border-box;
+}
+body{
+  margin: 1rem;
+  padding: 1rem;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+h1{
+  margin: 0;
+}
+
+
+}
+h1{
+  margin: 0;
+}
+
+
+
